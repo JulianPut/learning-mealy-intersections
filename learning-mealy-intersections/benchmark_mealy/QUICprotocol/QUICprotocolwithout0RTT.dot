@@ -1,0 +1,32 @@
+digraph G {
+	s0
+	s1
+	s2
+	s3
+	s4
+	s0 [label="0"];
+	s0 -> s1 [label="INIT-CHLO/REJ"]
+	s0 -> s2 [label="GET/PRST"]
+	s0 -> s3 [label="CLOSE/closed"]
+	s0 -> s3 [label="FULL-CHLO/EXP"]
+	s1 [label="1"];
+	s1 -> s1 [label="INIT-CHLO/REJ"]
+	s1 -> s2 [label="GET/EXP"]
+	s1 -> s1 [label="CLOSE/closed"]
+	s1 -> s4 [label="FULL-CHLO/shlo"]
+	s2 [label="2"];
+	s2 -> s1 [label="INIT-CHLO/REJ"]
+	s2 -> s2 [label="GET/EXP"]
+	s2 -> s2 [label="CLOSE/closed"]
+	s2 -> s2 [label="FULL-CHLO/EXP"]
+	s3 [label="3"];
+	s3 -> s1 [label="INIT-CHLO/REJ"]
+	s3 -> s2 [label="GET/PRST"]
+	s3 -> s3 [label="CLOSE/closed"]
+	s3 -> s2 [label="FULL-CHLO/PRST"]
+	s4 [label="4"];
+	s4 -> s1 [label="INIT-CHLO/REJ"]
+	s4 -> s2 [label="GET/http"]
+	s4 -> s3 [label="CLOSE/closed"]
+	s4 -> s2 [label="FULL-CHLO/EXP"]
+}

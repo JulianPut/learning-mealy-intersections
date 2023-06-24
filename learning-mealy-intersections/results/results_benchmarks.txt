@@ -1,0 +1,135 @@
+Mastercard:
+	learned with idp:
+		{'queries_learning': 2330, 'steps_learning': 10220, 'queries_eq_oracle': 2, 'steps_eq_oracle': 1212, 'automaton_size': 11}
+	learned with wbw:
+		{'queries_learning': 1365, 'steps_learning': 9030, 'queries_eq_oracle': 1, 'steps_eq_oracle': 654, 'automaton_size': 6}
+	learned with mbm:
+		{'queries_learning': 2330, 'steps_learning': 8898, 'queries_eq_oracle': 2, 'steps_eq_oracle': 1165, 'automaton_size': 11}
+
+
+MAESTRO:
+	learned with idp:
+		{'queries_learning': 7286, 'steps_learning': 33332, 'queries_eq_oracle': 6, 'steps_eq_oracle': 4080, 'automaton_size': 36}
+	learned with wbw:
+		{'queries_learning': 3339, 'steps_learning': 42990, 'queries_eq_oracle': 2, 'steps_eq_oracle': 1879, 'automaton_size': 16}
+	learned with mbm:
+		{'queries_learning': 7874, 'steps_learning': 33592, 'queries_eq_oracle': 6, 'steps_eq_oracle': 4440, 'automaton_size': 39}
+
+
+SecureCode:
+	learned with idp:
+		{'queries_learning': 10247, 'steps_learning': 46079, 'queries_eq_oracle': 9, 'steps_eq_oracle': 5671, 'automaton_size': 50}
+	learned with wbw:
+		{'queries_learning': 4479, 'steps_learning': 54165, 'queries_eq_oracle': 3, 'steps_eq_oracle': 2449, 'automaton_size': 21}
+	learned with mbm:
+		{'queries_learning': 10610, 'steps_learning': 43274, 'queries_eq_oracle': 9, 'steps_eq_oracle': 5844, 'automaton_size': 52}
+
+
+QUICprotocol:
+	learned with idp:
+		{'queries_learning': 10461, 'steps_learning': 47850, 'queries_eq_oracle': 11, 'steps_eq_oracle': 6743, 'automaton_size': 60}
+	learned with wbw:
+		{'queries_learning': 4684, 'steps_learning': 55991, 'queries_eq_oracle': 4, 'steps_eq_oracle': 3269, 'automaton_size': 29}
+	learned with mbm:
+		{'queries_learning': 10872, 'steps_learning': 45114, 'queries_eq_oracle': 11, 'steps_eq_oracle': 7232, 'automaton_size': 65}
+
+
+SSH:
+	learned with idp:
+		{'queries_learning': 11331, 'steps_learning': 49795, 'queries_eq_oracle': 14, 'steps_eq_oracle': 6996, 'automaton_size': 63}
+	learned with wbw:
+		{'queries_learning': 5765, 'steps_learning': 60170, 'queries_eq_oracle': 5, 'steps_eq_oracle': 3489, 'automaton_size': 31}
+	learned with mbm:
+		{'queries_learning': 12226, 'steps_learning': 46408, 'queries_eq_oracle': 14, 'steps_eq_oracle': 7570, 'automaton_size': 69}
+
+
+TCP_client:
+	learned with idp:
+		{'queries_learning': 11661, 'steps_learning': 50699, 'queries_eq_oracle': 17, 'steps_eq_oracle': 7270, 'automaton_size': 66}
+	learned with wbw:
+		{'queries_learning': 5875, 'steps_learning': 61037, 'queries_eq_oracle': 6, 'steps_eq_oracle': 3568, 'automaton_size': 32}
+	learned with mbm:
+		{'queries_learning': 12556, 'steps_learning': 47314, 'queries_eq_oracle': 17, 'steps_eq_oracle': 7846, 'automaton_size': 72}
+
+
+TCP_server:
+	learned with idp:
+		{'queries_learning': 12181, 'steps_learning': 51970, 'queries_eq_oracle': 20, 'steps_eq_oracle': 7539, 'automaton_size': 69}
+	learned with wbw:
+		{'queries_learning': 6226, 'steps_learning': 62559, 'queries_eq_oracle': 7, 'steps_eq_oracle': 3727, 'automaton_size': 34}
+	learned with mbm:
+		{'queries_learning': 13245, 'steps_learning': 48509, 'queries_eq_oracle': 20, 'steps_eq_oracle': 8211, 'automaton_size': 76}
+
+
+GnuTLS_client_full:
+	learned with idp:
+		{'queries_learning': 13357, 'steps_learning': 56248, 'queries_eq_oracle': 22, 'steps_eq_oracle': 8337, 'automaton_size': 77}
+	learned with wbw:
+		{'queries_learning': 7390, 'steps_learning': 72381, 'queries_eq_oracle': 8, 'steps_eq_oracle': 4639, 'automaton_size': 42}
+	learned with mbm:
+		{'queries_learning': 14565, 'steps_learning': 52969, 'queries_eq_oracle': 22, 'steps_eq_oracle': 9201, 'automaton_size': 85}
+
+
+GnuTLS_client_regular:
+	learned with idp:
+		{'queries_learning': 14269, 'steps_learning': 61528, 'queries_eq_oracle': 24, 'steps_eq_oracle': 9953, 'automaton_size': 91}
+	learned with wbw:
+		{'queries_learning': 7764, 'steps_learning': 73697, 'queries_eq_oracle': 9, 'steps_eq_oracle': 4921, 'automaton_size': 45}
+	learned with mbm:
+		{'queries_learning': 15221, 'steps_learning': 55982, 'queries_eq_oracle': 24, 'steps_eq_oracle': 10378, 'automaton_size': 95}
+
+
+GnuTLS_server_full:
+	learned with idp:
+		{'queries_learning': 17033, 'steps_learning': 75626, 'queries_eq_oracle': 27, 'steps_eq_oracle': 12274, 'automaton_size': 111}
+	learned with wbw:
+		{'queries_learning': 8928, 'steps_learning': 82479, 'queries_eq_oracle': 10, 'steps_eq_oracle': 5786, 'automaton_size': 53}
+	learned with mbm:
+		{'queries_learning': 17871, 'steps_learning': 68208, 'queries_eq_oracle': 26, 'steps_eq_oracle': 12600, 'automaton_size': 115}
+
+
+GnuTLS_server_regular:
+	learned with idp:
+		{'queries_learning': 18073, 'steps_learning': 81611, 'queries_eq_oracle': 29, 'steps_eq_oracle': 14083, 'automaton_size': 127}
+	learned with wbw:
+		{'queries_learning': 9448, 'steps_learning': 87467, 'queries_eq_oracle': 11, 'steps_eq_oracle': 6684, 'automaton_size': 61}
+	learned with mbm:
+		{'queries_learning': 18975, 'steps_learning': 74166, 'queries_eq_oracle': 28, 'steps_eq_oracle': 14533, 'automaton_size': 132}
+
+
+OpenSSL_client:
+	learned with idp:
+		{'queries_learning': 19473, 'steps_learning': 90464, 'queries_eq_oracle': 33, 'steps_eq_oracle': 17322, 'automaton_size': 155}
+	learned with wbw:
+		{'queries_learning': 9798, 'steps_learning': 94707, 'queries_eq_oracle': 12, 'steps_eq_oracle': 7432, 'automaton_size': 68}
+	learned with mbm:
+		{'queries_learning': 20326, 'steps_learning': 81433, 'queries_eq_oracle': 32, 'steps_eq_oracle': 17532, 'automaton_size': 159}
+
+
+OpenSSL_server:
+	learned with idp:
+		{'queries_learning': 21412, 'steps_learning': 102982, 'queries_eq_oracle': 37, 'steps_eq_oracle': 21825, 'automaton_size': 194}
+	learned with wbw:
+		{'queries_learning': 10197, 'steps_learning': 102893, 'queries_eq_oracle': 13, 'steps_eq_oracle': 8354, 'automaton_size': 76}
+	learned with mbm:
+		{'queries_learning': 21873, 'steps_learning': 89561, 'queries_eq_oracle': 36, 'steps_eq_oracle': 20924, 'automaton_size': 190}
+
+
+TLS_RSA_BSAFE_server:
+	learned with idp:
+		{'queries_learning': 22388, 'steps_learning': 108339, 'queries_eq_oracle': 39, 'steps_eq_oracle': 23454, 'automaton_size': 209}
+	learned with wbw:
+		{'queries_learning': 10589, 'steps_learning': 105435, 'queries_eq_oracle': 14, 'steps_eq_oracle': 9028, 'automaton_size': 82}
+	learned with mbm:
+		{'queries_learning': 22657, 'steps_learning': 92928, 'queries_eq_oracle': 38, 'steps_eq_oracle': 22229, 'automaton_size': 202}
+
+
+X-ray-system-PCS:
+	learned with idp:
+		{'queries_learning': 24654, 'steps_learning': 119895, 'queries_eq_oracle': 44, 'steps_eq_oracle': 27250, 'automaton_size': 244}
+	learned with wbw:
+		{'queries_learning': 11246, 'steps_learning': 117275, 'queries_eq_oracle': 15, 'steps_eq_oracle': 9900, 'automaton_size': 90}
+	learned with mbm:
+		{'queries_learning': 25119, 'steps_learning': 103253, 'queries_eq_oracle': 43, 'steps_eq_oracle': 26449, 'automaton_size': 241}
+
+
